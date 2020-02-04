@@ -21,8 +21,11 @@ Sidekick is a behavioral modification Website Application for Teachers and Stude
 Sidekick provides a platform for Teachers to reward Students' positive behavior with points. The points may be used by the Students on an online Web Application. The Student side of the Application will provide a store to spend points, a collection page to view items purchased and view their Sidekick on a runway to display their new purchases and designs. 
 
 ## Personas
-![Child Persona](/RM-images/kid.png)
-![Teaching Persona](/RM-images/teacher.png)
+<img src="RM-images/kid.png" alt="Child Persona">
+<img src="RM-images/teacher.png" alt="Teacher Persona">
+
+## ERD
+<img src="RM-images/erd.png" alt="ERD">
 
 ## Application Features
 

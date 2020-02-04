@@ -1,16 +1,29 @@
 {
   "users": [
-    {
-      "username": "Sage Klein",
-      "password": "sage",
-      "id": 1
-    }
-  ],
+  {
+  "id": 1,
+  "user_name": "Sage",
+  "password": "sage",
+  "user_points": "300",
+  "avatar_id": "1"
+}
+], 
+  "store": [
+  {
+  "userId": "",
+  "buy_image": "",
+  "buy_name": "",
+  "buy_id": "",
+  "buy_price": ""
+  }
+],
   "stuff": [
-    {
-      "userId": 1,
-      "name": "",
-      "description": ""
-    }
+  {
+  "userId": "",
+  "stuff_id": "",
+  "stuff_image": "",
+  "stuff_name": ""
+  }
 ]
 }
+
