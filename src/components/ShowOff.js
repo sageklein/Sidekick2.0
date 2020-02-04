@@ -11,7 +11,7 @@ class ShowOff extends Component {
             <div className="showContainer">
 				<div className="ShowOff">
 					<img
-						src={require("../images/raccoon.png")}
+						src={require("../images/dressedAvatar.png")}
 						alt="Stuff"
 					/>
 				</div>

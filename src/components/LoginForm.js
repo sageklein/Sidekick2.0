@@ -1,6 +1,5 @@
 import React, { Component } from "react";
 import Form from "react-bootstrap/Form";
-import Button from "react-bootstrap/Button";
 import { Link } from "react-router-dom";
 import "../../src/css/Login.css";
 
@@ -28,9 +27,11 @@ class LoginForm extends Component {
 						<Form.Control type="password" placeholder="Password" />
 					</Form.Group>
 					<Link to="/Store">
-						<Button variant="primary" type="submit">
-							Login
-						</Button>
+						<img
+							src={require("../images/loginButton.png")}
+							className="LoginButton"
+							alt="Login"
+						/>
 					</Link>
 				</Form>
 			</Form>
