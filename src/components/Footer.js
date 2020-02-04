@@ -10,7 +10,8 @@ class Footer extends Component {
 			<div className="footer">
 				<Link
 					className="link"
-					activeClass="active"
+					// activeClass="active"
+					to=""
 					// onClick={() => history.goBack()}
 				>
 					<img

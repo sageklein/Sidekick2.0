@@ -8,17 +8,29 @@ body{
     flex: 'flex-shrink';
     padding-top: 3em;
     position: absolute;
-    top: 18%;
+    top: 12%;
     left: 50%;
     margin-right: -50%;
     transform: translate(-50%, -50%) 
 }
-.login{
-    flex: 'flex-shrink';
+.loginForm{
     padding-top: 3em;
     position: absolute;
-    top: 40%;
+    top: 58%;
+    left: 38%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%) 
+}
+.loginImg{
+    background-image: url(../images/loginbg.png);
+    background-repeat: no-repeat;
+    height: 900px;
+    width: 600px;
+    position: absolute;
+    top: 58%;
     left: 50%;
     margin-right: -50%;
     transform: translate(-50%, -50%) 
 }
+
+

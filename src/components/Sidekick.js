@@ -12,15 +12,13 @@ class Sidekick extends Component {
 				<div className="whereTo">
 					<img
 						src={require("../images/whereTo.png")}
-						className=""
 						alt="Where would you like to go?"
 					/>
 				</div>
 				<div className="buttonSet">
-					<Link className="link" activeClass="active" to="/ShowOff">
+					<Link className="link" to="/ShowOff">
 						<img
 							src={require("../images/See.png")}
-							className="see"
 							alt="See my Sidekick"
 						/>
 					</Link>
@@ -31,10 +29,9 @@ class Sidekick extends Component {
 						alt="Or"
 					/>
 					<div className="">
-						<Link className="link" activeClass="active" to="/Stuff">
+						<Link className="link" to="/Stuff">
 							<img
 								src={require("../images/Stuff.png")}
-								className="stuff"
 								alt="See my Stuff"
 							/>
 						</Link>

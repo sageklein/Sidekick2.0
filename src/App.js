@@ -5,6 +5,7 @@
 //<Dashboard.js> renders the <NavBar> and <ApplicationViews> 
 import React, { Component } from 'react'
 import ApplicationViews from "../src/ApplicationViews";
+import "bootstrap/dist/css/bootstrap.min.css";
 import "../src/css/App.css";
 
 

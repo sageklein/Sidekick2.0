@@ -8,8 +8,14 @@ class Store extends Component {
 	render() {
 		return (
 			<>
-			<NavBar />
+				<NavBar />
+
 				<div className="Store">
+					<img
+						src={require("../images/Points.png")}
+						className="points"
+						alt="store"
+					/>
 					<div className="Avatar">
 						<img
 							src={require("../images/raccoon.png")}
@@ -20,11 +26,11 @@ class Store extends Component {
 					<div className="Accessories">
 						<img
 							src={require("../images/AccessorriesStore.png")}
-							className="store"
-							alt="store"
+							className="Acc"
+							alt="Accessories"
 						/>
 					</div>
-				</div>
+					</div>
 				<Footer />
 			</>
 		);

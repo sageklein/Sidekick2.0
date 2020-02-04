@@ -1,7 +1,8 @@
 import React, { Component } from "react";
+import Form from "react-bootstrap/Form";
+import Button from "react-bootstrap/Button";
 import { Link } from "react-router-dom";
-
-
+import "../../src/css/Login.css";
 
 class LoginForm extends Component {
 	// Using a class based component here because we're accessing DOM refs
@@ -15,13 +16,24 @@ class LoginForm extends Component {
 
 	render() {
 		return (
-			<form onSubmit={this.handleSignIn.bind(this)}>
-				<input type="text" ref="username" placeholder="Username" />
-				<input type="password" ref="password" placeholder="Password" />
-				<Link to="/Store">
-					<button>Login</button>
-				</Link>
-			</form>
+			<Form className="loginForm" onSubmit={this.handleSignIn.bind(this)}>
+				<Form>
+					<Form.Group controlId="formBasicEmail">
+						<Form.Label>Username</Form.Label>
+						<Form.Control type="email" placeholder="username" />
+					</Form.Group>
+
+					<Form.Group controlId="formBasicPassword">
+						<Form.Label>Password</Form.Label>
+						<Form.Control type="password" placeholder="Password" />
+					</Form.Group>
+					<Link to="/Store">
+						<Button variant="primary" type="submit">
+							Login
+						</Button>
+					</Link>
+				</Form>
+			</Form>
 		);
 	}
 }

@@ -28,8 +28,6 @@ Sidekick provides a platform for Teachers to reward Students' positive behavior 
 <img src="RM-images/erd.png" alt="ERD">
 
 ## Application Features
-
-- Student can register an account
 - Student can Login
 - Student can view their Sidekick
 - Student can view Accessories Purchased
