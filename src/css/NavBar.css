@@ -1,0 +1,45 @@
+body {
+margin:0;
+font-family: 'Sigmar One', 'cursive';
+}
+
+ul {
+  display: flex;   
+  justify-content: space-between;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #57C2F0;
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: flex;
+  justify-content: space-between;
+  text-shadow: 2px 2px 4px #B32120;
+  color: #FFF912;
+  font-size: 2.8em;
+  font-family: 'Sigmar One', 'cursive';
+  text-align: center;
+  padding: .3em;
+  text-decoration: none;
+}
+
+li a:hover:not(.active) {
+  background-color: #2584E2;
+  text-decoration: none;
+  color: #FFF912;
+}
+
+.active {
+  background-color: #57C2F0;
+  text-decoration: none;
+  color: #FFF912;
+}

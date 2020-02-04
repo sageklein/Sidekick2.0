@@ -1,0 +1,20 @@
+/* BODY AND BACKGROUNDS */
+
+.Store{
+    background-image: url(../images/mainbg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-top: 14em;
+    display: flex;    
+    flex-wrap: nowrap;
+    justify-content: center;
+    flex-direction: row;
+    height:100%;
+}
+.Avatar{
+    flex: 'flex-shrink';
+    padding-top: 3em;
+    padding-right: 8em;
+    height: 2em;
+    width: auto; 
+}

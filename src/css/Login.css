@@ -1,0 +1,24 @@
+/* BODY AND BACKGROUNDS */
+body{
+  font-size: 16px;
+  font-family: 'Sigmar One', 'cursive';
+}
+
+.logo{
+    flex: 'flex-shrink';
+    padding-top: 3em;
+    position: absolute;
+    top: 18%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%) 
+}
+.login{
+    flex: 'flex-shrink';
+    padding-top: 3em;
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%) 
+}
