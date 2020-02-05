@@ -5,19 +5,20 @@ import Sidekick from "./components/Sidekick";
 import Store from "./components/Store";
 import Stuff from "./components/Stuff";
 import ShowOff from "./components/ShowOff";
+import Home from "./components/Home"
 
 export default class ApplicationViews extends Component {
 	render() {
 		console.log("from app js", this.props);
 		return (
 			<>
-				{/* <Route
+				<Route
 					exact
 					path="/"
 					render={props => {
 						return <Home />;
 					}}
-				/> */}
+				/>
 				<Route
 					exact
 					path="/sidekick"
