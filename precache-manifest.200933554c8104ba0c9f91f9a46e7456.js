@@ -1,27 +1,27 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "81c6b73bd44388990b954481d017459a",
+    "revision": "8603c9c9e2e13eec32ecc3078cde7fa8",
     "url": "/Sidekick2.0/index.html"
   },
   {
-    "revision": "52cc806592cddcc80922",
+    "revision": "9cfffbb92320337bbf45",
     "url": "/Sidekick2.0/static/css/2.47e06e2e.chunk.css"
   },
   {
-    "revision": "6f6bcbd8059f8404030c",
-    "url": "/Sidekick2.0/static/css/main.0a4a52e3.chunk.css"
+    "revision": "5b1db2c81b655f4d5e07",
+    "url": "/Sidekick2.0/static/css/main.bd78757a.chunk.css"
   },
   {
-    "revision": "52cc806592cddcc80922",
-    "url": "/Sidekick2.0/static/js/2.f65e4a7b.chunk.js"
+    "revision": "9cfffbb92320337bbf45",
+    "url": "/Sidekick2.0/static/js/2.5edc83c2.chunk.js"
   },
   {
     "revision": "86afaa925e0f432774bf95b19b6933fb",
-    "url": "/Sidekick2.0/static/js/2.f65e4a7b.chunk.js.LICENSE"
+    "url": "/Sidekick2.0/static/js/2.5edc83c2.chunk.js.LICENSE"
   },
   {
-    "revision": "6f6bcbd8059f8404030c",
-    "url": "/Sidekick2.0/static/js/main.855f34b3.chunk.js"
+    "revision": "5b1db2c81b655f4d5e07",
+    "url": "/Sidekick2.0/static/js/main.ae9a0ae8.chunk.js"
   },
   {
     "revision": "fab7f1eb22aaa738f4ab",
@@ -52,8 +52,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/Sidekick2.0/static/media/See.d80d23f4.png"
   },
   {
-    "revision": "f7c4157a0cb1e24828fd919ab5cafc2b",
-    "url": "/Sidekick2.0/static/media/Sidekick.f7c4157a.png"
+    "revision": "98acc1ed26a6bbfca19e785ab078d4af",
+    "url": "/Sidekick2.0/static/media/Sidekick.98acc1ed.png"
   },
   {
     "revision": "6857ec5af3bec148dbc2231ab51ed8a7",
@@ -64,8 +64,12 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/Sidekick2.0/static/media/dressedAvatar.175a2222.png"
   },
   {
-    "revision": "3c32331b66e70e978f8bbc231d5677e5",
-    "url": "/Sidekick2.0/static/media/loginbg.3c32331b.png"
+    "revision": "305fd31e88541eaf54da73bd0a4937b1",
+    "url": "/Sidekick2.0/static/media/loginButton.305fd31e.png"
+  },
+  {
+    "revision": "6532ee8ac6e8b89dfb78894fade5108c",
+    "url": "/Sidekick2.0/static/media/loginbg.6532ee8a.png"
   },
   {
     "revision": "75f1b6a4449d5e2576dc6711141d69ff",

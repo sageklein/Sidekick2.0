@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/Sidekick2.0/precache-manifest.b4d8a679192e636b0d22ff99658ac447.js"
+  "/Sidekick2.0/precache-manifest.200933554c8104ba0c9f91f9a46e7456.js"
 );
 
 self.addEventListener('message', (event) => {
