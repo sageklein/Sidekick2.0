@@ -6,6 +6,7 @@
 import React, { Component } from 'react'
 import ApplicationViews from "../src/ApplicationViews";
 import "bootstrap/dist/css/bootstrap.min.css";
+import Login from "../src/components/Login"
 import "../src/css/App.css";
 
 
@@ -45,6 +46,7 @@ class App extends Component {
 	render() {
 		return (
 			<>
+			<Login />
 				<ApplicationViews
 					user={this.state.user}
 					isAuthenticated={this.isAuthenticated}

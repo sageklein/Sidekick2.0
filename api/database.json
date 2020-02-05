@@ -1,29 +1,45 @@
 {
   "users": [
   {
-  "id": 1,
-  "user_name": "Sage",
-  "password": "sage",
-  "user_points": "300",
-  "avatar_id": "1"
-}
-], 
-  "store": [
-  {
-  "userId": "",
-  "buy_image": "",
-  "buy_name": "",
-  "buy_id": "",
-  "buy_price": ""
+  "id": "",
+  "userName": "",
+  "password": "",
+  "points": ""
   }
 ],
-  "stuff": [
+  "items": [
   {
-  "userId": "",
-  "stuff_id": "",
-  "stuff_image": "",
-  "stuff_name": ""
+  "id": "",
+  "itemImage": "",
+  "itemPrice": "",
+  "type_id": ""
+  }
+],
+  "avatars": [
+  {
+  "id": "",
+  "avatarImg": "",
+  "name": ""
+  }
+],
+  "ItemTypes": [ 
+  {
+  "id": "",
+  "name": ""
+  }
+], 
+  "userAvatar": [
+  {
+  "id": "",
+  "user_id": "",
+  "avatar_id": ""
+  }
+],
+  "userCollection": [
+  {
+  "id": "",
+  "user_id": "",
+  "item_id": ""
   }
 ]
 }
-
