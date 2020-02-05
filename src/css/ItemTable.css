@@ -1,0 +1,23 @@
+.StoreTable{
+position: absolute;
+width: 786px;
+height: 450px;
+left: 593px;
+top: 388px;
+
+background: rgba(255, 249, 18, 0.75);
+box-shadow: inset 0px 4px 4px rgba(0, 0, 0, 0.25);
+border-radius: 8px;
+}
+
+.Item{
+position: absolute;
+width: 200px;
+height: 189.09px;
+left: 623px;
+top: 414px;
+
+background: rgba(255, 249, 18, 0.78);
+box-shadow: inset 0px 4px 4px rgba(0, 0, 0, 0.25);
+border-radius: 8px;   
+}

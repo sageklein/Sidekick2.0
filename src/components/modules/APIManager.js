@@ -2,32 +2,37 @@ const remoteURL = "http://localhost:5002";
 
 export default {
 	get(id) {
-		return fetch(`${remoteURL}/user/${id}`).then(result => result.json());
+		return fetch(`${remoteURL}/items/${id}`).then(result => result.json());
 	},
 	getAll() {
-		return fetch(`${remoteURL}/stuff`).then(result => result.json());
+		return fetch(`${remoteURL}/items`).then(result => result.json());
 	},
 	delete(id) {
-		return fetch(`http://localhost:5002/stuff/${id}`, {
+		return fetch(`http://localhost:5002/items/${id}`, {
 			method: "DELETE"
 		}).then(result => result.json());
 	},
-	post(newStuff) {
-		return fetch(`${remoteURL}/stuff`, {
+	post(newItem) {
+		return fetch(`${remoteURL}/items`, {
 			method: "POST",
 			headers: {
 				"Content-Type": "application/json"
 			},
-			body: JSON.stringify(newStuff)
+			body: JSON.stringify(newItem)
 		}).then(data => data.json());
 	},
-	update(editedStuff) {
-		return fetch(`${remoteURL}/stuff/${editedStuff.id}`, {
+	update(editedItem) {
+		return fetch(`${remoteURL}/items/${editedItem.id}`, {
 			method: "PUT",
 			headers: {
 				"Content-Type": "application/json"
 			},
-			body: JSON.stringify(editedStuff)
+			body: JSON.stringify(editedItem)
 		}).then(data => data.json());
+	},
+	getRelated(id) {
+		return fetch(
+			`${remoteURL}/item?avatar=${id}`
+		).then(data => data.json());
 	}
 };

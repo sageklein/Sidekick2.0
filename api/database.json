@@ -1,45 +1,46 @@
 {
   "users": [
   {
-  "id": "",
-  "userName": "",
-  "password": "",
-  "points": ""
+  "id": "1",
+  "userName": "Sage",
+  "password": "sage",
+  "points": "300"
   }
 ],
   "items": [
   {
-  "id": "",
-  "itemImage": "",
-  "itemPrice": "",
-  "type_id": ""
+  "id": "1",
+  "name": "Hat",
+  "image": "",
+  "price": "50",
+  "type_id": "1"
   }
 ],
   "avatars": [
   {
-  "id": "",
+  "id": "1",
   "avatarImg": "",
-  "name": ""
+  "name": "Sage"
   }
 ],
-  "ItemTypes": [ 
+  "itemTypes": [ 
   {
-  "id": "",
-  "name": ""
+  "id": "1",
+  "name": "Hat"
   }
 ], 
   "userAvatar": [
   {
-  "id": "",
-  "user_id": "",
-  "avatar_id": ""
+  "id": "1",
+  "user_id": "1",
+  "avatar_id": "1"
   }
 ],
   "userCollection": [
   {
-  "id": "",
-  "user_id": "",
-  "item_id": ""
+  "id": "1",
+  "user_id": "1",
+  "item_id": "1"
   }
 ]
 }
