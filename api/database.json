@@ -10,7 +10,7 @@
   "items": [
   {
   "id": "1",
-  "name": "Hat",
+  "name": "Hat.png",
   "image": "",
   "price": "50",
   "type_id": "1"
