@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/Sidekick2.0/static/css/main.a016a12f.chunk.css",
+    "main.css": "/Sidekick2.0/static/css/main.22de3724.chunk.css",
     "main.js": "/Sidekick2.0/static/js/main.9665ee17.chunk.js",
     "main.js.map": "/Sidekick2.0/static/js/main.9665ee17.chunk.js.map",
     "runtime-main.js": "/Sidekick2.0/static/js/runtime-main.366d0302.js",
@@ -9,10 +9,10 @@
     "static/js/2.c5e30223.chunk.js": "/Sidekick2.0/static/js/2.c5e30223.chunk.js",
     "static/js/2.c5e30223.chunk.js.map": "/Sidekick2.0/static/js/2.c5e30223.chunk.js.map",
     "index.html": "/Sidekick2.0/index.html",
-    "precache-manifest.c5d63fd940640ad01d5cecd0d24f85c4.js": "/Sidekick2.0/precache-manifest.c5d63fd940640ad01d5cecd0d24f85c4.js",
+    "precache-manifest.8efe116a51e48f7c55418a535d9c04ca.js": "/Sidekick2.0/precache-manifest.8efe116a51e48f7c55418a535d9c04ca.js",
     "service-worker.js": "/Sidekick2.0/service-worker.js",
     "static/css/2.47e06e2e.chunk.css.map": "/Sidekick2.0/static/css/2.47e06e2e.chunk.css.map",
-    "static/css/main.a016a12f.chunk.css.map": "/Sidekick2.0/static/css/main.a016a12f.chunk.css.map",
+    "static/css/main.22de3724.chunk.css.map": "/Sidekick2.0/static/css/main.22de3724.chunk.css.map",
     "static/js/2.c5e30223.chunk.js.LICENSE": "/Sidekick2.0/static/js/2.c5e30223.chunk.js.LICENSE",
     "static/media/AccessorriesStore.png": "/Sidekick2.0/static/media/AccessorriesStore.f340d2f0.png",
     "static/media/Back.png": "/Sidekick2.0/static/media/Back.d4606c97.png",
@@ -34,7 +34,7 @@
     "static/js/runtime-main.366d0302.js",
     "static/css/2.47e06e2e.chunk.css",
     "static/js/2.c5e30223.chunk.js",
-    "static/css/main.a016a12f.chunk.css",
+    "static/css/main.22de3724.chunk.css",
     "static/js/main.9665ee17.chunk.js"
   ]
 }
