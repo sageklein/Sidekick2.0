@@ -1,19 +1,19 @@
 {
   "files": {
-    "main.css": "/Sidekick2.0/static/css/main.bd78757a.chunk.css",
-    "main.js": "/Sidekick2.0/static/js/main.ae9a0ae8.chunk.js",
-    "main.js.map": "/Sidekick2.0/static/js/main.ae9a0ae8.chunk.js.map",
+    "main.css": "/Sidekick2.0/static/css/main.a016a12f.chunk.css",
+    "main.js": "/Sidekick2.0/static/js/main.9665ee17.chunk.js",
+    "main.js.map": "/Sidekick2.0/static/js/main.9665ee17.chunk.js.map",
     "runtime-main.js": "/Sidekick2.0/static/js/runtime-main.366d0302.js",
     "runtime-main.js.map": "/Sidekick2.0/static/js/runtime-main.366d0302.js.map",
     "static/css/2.47e06e2e.chunk.css": "/Sidekick2.0/static/css/2.47e06e2e.chunk.css",
-    "static/js/2.5edc83c2.chunk.js": "/Sidekick2.0/static/js/2.5edc83c2.chunk.js",
-    "static/js/2.5edc83c2.chunk.js.map": "/Sidekick2.0/static/js/2.5edc83c2.chunk.js.map",
+    "static/js/2.c5e30223.chunk.js": "/Sidekick2.0/static/js/2.c5e30223.chunk.js",
+    "static/js/2.c5e30223.chunk.js.map": "/Sidekick2.0/static/js/2.c5e30223.chunk.js.map",
     "index.html": "/Sidekick2.0/index.html",
-    "precache-manifest.200933554c8104ba0c9f91f9a46e7456.js": "/Sidekick2.0/precache-manifest.200933554c8104ba0c9f91f9a46e7456.js",
+    "precache-manifest.c5d63fd940640ad01d5cecd0d24f85c4.js": "/Sidekick2.0/precache-manifest.c5d63fd940640ad01d5cecd0d24f85c4.js",
     "service-worker.js": "/Sidekick2.0/service-worker.js",
     "static/css/2.47e06e2e.chunk.css.map": "/Sidekick2.0/static/css/2.47e06e2e.chunk.css.map",
-    "static/css/main.bd78757a.chunk.css.map": "/Sidekick2.0/static/css/main.bd78757a.chunk.css.map",
-    "static/js/2.5edc83c2.chunk.js.LICENSE": "/Sidekick2.0/static/js/2.5edc83c2.chunk.js.LICENSE",
+    "static/css/main.a016a12f.chunk.css.map": "/Sidekick2.0/static/css/main.a016a12f.chunk.css.map",
+    "static/js/2.c5e30223.chunk.js.LICENSE": "/Sidekick2.0/static/js/2.c5e30223.chunk.js.LICENSE",
     "static/media/AccessorriesStore.png": "/Sidekick2.0/static/media/AccessorriesStore.f340d2f0.png",
     "static/media/Back.png": "/Sidekick2.0/static/media/Back.d4606c97.png",
     "static/media/Sidekick.css": "/Sidekick2.0/static/media/Background1.64e30760.png",
@@ -33,8 +33,8 @@
   "entrypoints": [
     "static/js/runtime-main.366d0302.js",
     "static/css/2.47e06e2e.chunk.css",
-    "static/js/2.5edc83c2.chunk.js",
-    "static/css/main.bd78757a.chunk.css",
-    "static/js/main.ae9a0ae8.chunk.js"
+    "static/js/2.c5e30223.chunk.js",
+    "static/css/main.a016a12f.chunk.css",
+    "static/js/main.9665ee17.chunk.js"
   ]
 }
