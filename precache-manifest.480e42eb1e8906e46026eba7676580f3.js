@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "efde6b323665c520da313a4ca9294746",
+    "revision": "bca714de0be3be428ffd04ad413356d9",
     "url": "/Sidekick2.0/index.html"
   },
   {
@@ -8,8 +8,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/Sidekick2.0/static/css/2.47e06e2e.chunk.css"
   },
   {
-    "revision": "6feda4e1abab256700ab",
-    "url": "/Sidekick2.0/static/css/main.9e5ac9d2.chunk.css"
+    "revision": "88de2fce3c231b2b1f96",
+    "url": "/Sidekick2.0/static/css/main.1fd68a9a.chunk.css"
   },
   {
     "revision": "b593129477b4cb2a1980",
@@ -20,7 +20,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/Sidekick2.0/static/js/2.1a3eda44.chunk.js.LICENSE"
   },
   {
-    "revision": "6feda4e1abab256700ab",
+    "revision": "88de2fce3c231b2b1f96",
     "url": "/Sidekick2.0/static/js/main.60553dcd.chunk.js"
   },
   {
