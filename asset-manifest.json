@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/Sidekick2.0/static/css/main.82738584.chunk.css",
-    "main.js": "/Sidekick2.0/static/js/main.5fcc87e3.chunk.js",
-    "main.js.map": "/Sidekick2.0/static/js/main.5fcc87e3.chunk.js.map",
+    "main.js": "/Sidekick2.0/static/js/main.47b32d12.chunk.js",
+    "main.js.map": "/Sidekick2.0/static/js/main.47b32d12.chunk.js.map",
     "runtime-main.js": "/Sidekick2.0/static/js/runtime-main.366d0302.js",
     "runtime-main.js.map": "/Sidekick2.0/static/js/runtime-main.366d0302.js.map",
     "static/css/2.47e06e2e.chunk.css": "/Sidekick2.0/static/css/2.47e06e2e.chunk.css",
     "static/js/2.5edc83c2.chunk.js": "/Sidekick2.0/static/js/2.5edc83c2.chunk.js",
     "static/js/2.5edc83c2.chunk.js.map": "/Sidekick2.0/static/js/2.5edc83c2.chunk.js.map",
     "index.html": "/Sidekick2.0/index.html",
-    "precache-manifest.07e073cf5b3e29030254e5951187988d.js": "/Sidekick2.0/precache-manifest.07e073cf5b3e29030254e5951187988d.js",
+    "precache-manifest.f4486928611fa1db491b3d2002320ffe.js": "/Sidekick2.0/precache-manifest.f4486928611fa1db491b3d2002320ffe.js",
     "service-worker.js": "/Sidekick2.0/service-worker.js",
     "static/css/2.47e06e2e.chunk.css.map": "/Sidekick2.0/static/css/2.47e06e2e.chunk.css.map",
     "static/css/main.82738584.chunk.css.map": "/Sidekick2.0/static/css/main.82738584.chunk.css.map",
@@ -35,6 +35,6 @@
     "static/css/2.47e06e2e.chunk.css",
     "static/js/2.5edc83c2.chunk.js",
     "static/css/main.82738584.chunk.css",
-    "static/js/main.5fcc87e3.chunk.js"
+    "static/js/main.47b32d12.chunk.js"
   ]
 }
