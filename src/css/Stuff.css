@@ -18,5 +18,11 @@
 .Collection{
     flex: 'flex-shrink';
     padding-top: 4em;
-    padding-left: -10em;
+    padding-left: 10em;
+}
+.raccoon{
+    position: absolute;
+    top: 62%;
+    left: 30%;
+    transform: translate(-50%, -50%) 
 }
