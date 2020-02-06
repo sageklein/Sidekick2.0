@@ -1,6 +1,6 @@
 /* BODY AND BACKGROUNDS */
 body{
-  font-size: 16px;
+  font-size: 15px;
   font-family: 'Sigmar One', 'cursive';
 }
 
@@ -19,9 +19,8 @@ body{
     padding-top: 3em;
     width: 8.5em;
     position: absolute;
-    top: 58%;
+    top: 60%;
     left: 40%;
-    margin-right: -50%;
     transform: translate(-50%, -50%) 
 }
 .loginImg{
