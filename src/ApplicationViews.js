@@ -16,7 +16,13 @@ export default class ApplicationViews extends Component {
 					exact
 					path="/"
 					render={props => {
-						return <Home />;
+						return (
+							<Home
+								user={this.props.user}
+								setUser={this.props.setUser}
+								{...props}
+							/>
+						);
 					}}
 				/>
 				<Route
