@@ -17,6 +17,7 @@ body{
     color: white;
     font-size: 1.5em;
     padding-top: 3em;
+    width: 8.5em;
     position: absolute;
     top: 58%;
     left: 40%;
@@ -24,12 +25,12 @@ body{
     transform: translate(-50%, -50%) 
 }
 .loginImg{
-    background-image: url(../images/loginbg.png);
+    background-image: url(../images/login.png);
     background-repeat: no-repeat;
     height: 900px;
     width: 600px;
     position: absolute;
-    top: 60%;
+    top: 55%;
     left: 50%;
     margin-right: -50%;
     transform: translate(-50%, -50%) 
