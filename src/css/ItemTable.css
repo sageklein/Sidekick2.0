@@ -2,12 +2,12 @@
 display: flex;
 justify-content: space-evenly;
 flex-direction: row;
-flex-wrap: wrap;
+flex-wrap: wrap-reverse;
 position: absolute;
 color: black;
-width: 786px;
+width: 650px;
 height: 450px;
-left: 600px;
+left: 750px;
 top: 388px;
 background: rgba(255, 249, 18, 0.75);
 box-shadow: inset 0px 4px 4px rgba(0, 0, 0, 0.25);

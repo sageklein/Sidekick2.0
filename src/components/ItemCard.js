@@ -9,8 +9,9 @@ import "../../src/css/ItemTable.css";
 class ItemCard extends Component {
 	state = {
         items: [],
-        modal: false
-	};
+        image: [],
+		modal: false
+    };
 
 	modal = () => {
 		this.setState(modal => ({
@@ -31,7 +32,12 @@ class ItemCard extends Component {
 					<div>
 						<Link onClick={this.toggle}>
 							<p className="img">
-								<span> {this.props.item.image}</span>
+
+								<img
+									src={require(`../images/${this.props.item.image}`)}
+									alt="Stuff"
+								/>
+
 							</p>
 						</Link>
 						<Modal isOpen={this.state.modal} toggle={this.toggle}>
