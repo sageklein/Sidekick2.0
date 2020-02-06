@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "73c8d73489327528ea5e84e1f106bdd6",
+    "revision": "efde6b323665c520da313a4ca9294746",
     "url": "/Sidekick2.0/index.html"
   },
   {
@@ -8,8 +8,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/Sidekick2.0/static/css/2.47e06e2e.chunk.css"
   },
   {
-    "revision": "9c78eac8639646c7854d",
-    "url": "/Sidekick2.0/static/css/main.70574196.chunk.css"
+    "revision": "6feda4e1abab256700ab",
+    "url": "/Sidekick2.0/static/css/main.9e5ac9d2.chunk.css"
   },
   {
     "revision": "b593129477b4cb2a1980",
@@ -20,8 +20,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/Sidekick2.0/static/js/2.1a3eda44.chunk.js.LICENSE"
   },
   {
-    "revision": "9c78eac8639646c7854d",
-    "url": "/Sidekick2.0/static/js/main.8e866166.chunk.js"
+    "revision": "6feda4e1abab256700ab",
+    "url": "/Sidekick2.0/static/js/main.60553dcd.chunk.js"
   },
   {
     "revision": "fab7f1eb22aaa738f4ab",
@@ -68,8 +68,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/Sidekick2.0/static/media/login.ab046739.png"
   },
   {
-    "revision": "305fd31e88541eaf54da73bd0a4937b1",
-    "url": "/Sidekick2.0/static/media/loginButton.305fd31e.png"
+    "revision": "e6cf44c6d82847d5aefb546150a55fcc",
+    "url": "/Sidekick2.0/static/media/loginButton.e6cf44c6.png"
   },
   {
     "revision": "75f1b6a4449d5e2576dc6711141d69ff",

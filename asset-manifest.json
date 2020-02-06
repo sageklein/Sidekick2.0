@@ -1,18 +1,18 @@
 {
   "files": {
-    "main.css": "/Sidekick2.0/static/css/main.70574196.chunk.css",
-    "main.js": "/Sidekick2.0/static/js/main.8e866166.chunk.js",
-    "main.js.map": "/Sidekick2.0/static/js/main.8e866166.chunk.js.map",
+    "main.css": "/Sidekick2.0/static/css/main.9e5ac9d2.chunk.css",
+    "main.js": "/Sidekick2.0/static/js/main.60553dcd.chunk.js",
+    "main.js.map": "/Sidekick2.0/static/js/main.60553dcd.chunk.js.map",
     "runtime-main.js": "/Sidekick2.0/static/js/runtime-main.366d0302.js",
     "runtime-main.js.map": "/Sidekick2.0/static/js/runtime-main.366d0302.js.map",
     "static/css/2.47e06e2e.chunk.css": "/Sidekick2.0/static/css/2.47e06e2e.chunk.css",
     "static/js/2.1a3eda44.chunk.js": "/Sidekick2.0/static/js/2.1a3eda44.chunk.js",
     "static/js/2.1a3eda44.chunk.js.map": "/Sidekick2.0/static/js/2.1a3eda44.chunk.js.map",
     "index.html": "/Sidekick2.0/index.html",
-    "precache-manifest.44d7d60e23cf6c189e82106dcbe64c01.js": "/Sidekick2.0/precache-manifest.44d7d60e23cf6c189e82106dcbe64c01.js",
+    "precache-manifest.1ef52cfdaa400e350049ce434d095828.js": "/Sidekick2.0/precache-manifest.1ef52cfdaa400e350049ce434d095828.js",
     "service-worker.js": "/Sidekick2.0/service-worker.js",
     "static/css/2.47e06e2e.chunk.css.map": "/Sidekick2.0/static/css/2.47e06e2e.chunk.css.map",
-    "static/css/main.70574196.chunk.css.map": "/Sidekick2.0/static/css/main.70574196.chunk.css.map",
+    "static/css/main.9e5ac9d2.chunk.css.map": "/Sidekick2.0/static/css/main.9e5ac9d2.chunk.css.map",
     "static/js/2.1a3eda44.chunk.js.LICENSE": "/Sidekick2.0/static/js/2.1a3eda44.chunk.js.LICENSE",
     "static/media/AccessorriesStore.png": "/Sidekick2.0/static/media/AccessorriesStore.f340d2f0.png",
     "static/media/Back.png": "/Sidekick2.0/static/media/Back.d4606c97.png",
@@ -24,7 +24,7 @@
     "static/media/Stuff.png": "/Sidekick2.0/static/media/Stuff.6857ec5a.png",
     "static/media/dressedAvatar.png": "/Sidekick2.0/static/media/dressedAvatar.175a2222.png",
     "static/media/Login.css": "/Sidekick2.0/static/media/login.ab046739.png",
-    "static/media/loginButton.png": "/Sidekick2.0/static/media/loginButton.305fd31e.png",
+    "static/media/loginButton.png": "/Sidekick2.0/static/media/loginButton.e6cf44c6.png",
     "static/media/Stuff.css": "/Sidekick2.0/static/media/mainbg.75f1b6a4.jpg",
     "static/media/raccoon.png": "/Sidekick2.0/static/media/raccoon.a0d55a9a.png",
     "static/media/Show.css": "/Sidekick2.0/static/media/redcarpet.a4198b45.jpeg",
@@ -34,7 +34,7 @@
     "static/js/runtime-main.366d0302.js",
     "static/css/2.47e06e2e.chunk.css",
     "static/js/2.1a3eda44.chunk.js",
-    "static/css/main.70574196.chunk.css",
-    "static/js/main.8e866166.chunk.js"
+    "static/css/main.9e5ac9d2.chunk.css",
+    "static/js/main.60553dcd.chunk.js"
   ]
 }
