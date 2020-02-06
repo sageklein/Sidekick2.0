@@ -8,15 +8,6 @@ class ItemList extends Component {
 		items: []
 	};
 
-	deleteItem = id => {
-		APIManager.delete(id).then(() => {
-			APIManager.getAll().then(newItems => {
-				this.setState({
-					items: newItems
-				});
-			});
-		});
-	};
 
 	componentDidMount() {
 		console.log("Item LIST: ComponentDidMount");
@@ -31,12 +22,15 @@ class ItemList extends Component {
 		return (
 			<>
 				<div className="StoreTable">
-					<ItemCard
-						key={item.id}
-                        item={item}
-                        name={item.name}
-						{...this.props}
-					/>
+					{this.state.items.map(item => (
+						<ItemCard
+                            props={this.state.items}
+							key={item.id}
+							item={item}
+                            name={item.name}
+							{...this.props}
+						/>
+					))}
 				</div>
 				;
 			</>

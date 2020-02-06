@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import { Link } from "react-router-dom";
+import { Link, withRouter } from "react-router-dom";
 import "../../src/css/Footer.css";
 
 
@@ -10,9 +10,10 @@ class Footer extends Component {
 			<div className="footer">
 				<Link
 					className="link"
-					// activeClass="active"
 					to=""
-					// onClick={() => history.goBack()}
+					onClick={() => {
+						this.props.history.goBack();
+					}}
 				>
 					<img
 						src={require("../images/Back.png")}
@@ -26,4 +27,4 @@ class Footer extends Component {
 
 }
 }
-export default Footer;
+export default withRouter(Footer);

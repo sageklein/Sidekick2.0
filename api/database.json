@@ -10,10 +10,17 @@
   "items": [
   {
   "id": "1",
-  "name": "Hat.png",
-  "image": "",
+  "image": "Hat.png",
+  "name": "Hat",
   "price": "50",
-  "type_id": "1"
+  "itemTypeId": "1"
+  },
+  {
+		"id": "2",
+		"image": "Hat2.png",
+		"name": "Hat",
+		"price": "50",
+		"itemTypeId": "1"
   }
 ],
   "avatars": [
@@ -25,9 +32,12 @@
 ],
   "itemTypes": [ 
   {
-  "id": "1",
-  "name": "Hat"
-  }
+  "id": "1"
+  },
+    {
+		"id": "2",
+		"name": "Sunglass"
+	}
 ], 
   "userAvatar": [
   {

@@ -1,6 +1,7 @@
 import React, { Component } from "react";
 import NavBar from "../components/NavBar";
 import Footer from "../components/Footer";
+import ItemList from "../components/ItemList"
 // import APIManager from "../../modules/APIManager";
 import "../../src/css/Store.css";
 
@@ -24,10 +25,7 @@ class Store extends Component {
 						/>
 					</div>
 					<div className="Accessories">
-						<img
-							src={require("../images/AccessorriesStore.png")}
-							className="Acc"
-							alt="Accessories"
+						<ItemList
 						/>
 					</div>
 					</div>

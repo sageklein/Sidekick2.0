@@ -6,6 +6,7 @@ import Store from "./components/Store";
 import Stuff from "./components/Stuff";
 import ShowOff from "./components/ShowOff";
 import Home from "./components/Home"
+import Footer from "./components/Footer"
 
 export default class ApplicationViews extends Component {
 	render() {
@@ -72,6 +73,17 @@ export default class ApplicationViews extends Component {
 						);
 					}}
 				/>
+				<Route
+					exact
+					path="/footer"
+					render={props => {
+						return (
+							<Footer {...props}
+							props={this.props} />
+						);
+					}}
+				/>
+
 				{/* <Route
 					exact
 					path="/dashboard"

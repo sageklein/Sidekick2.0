@@ -10,17 +10,15 @@ class ItemCard extends Component {
 	render() {
 		return (
 			<>
-				<div className="Store">
+				<div className="Items">
 					<Link to="/store">
-						<img
-							src={require("../images/Hat.png")}
-							className="Hat1"
-							alt="Hat"
-						/>
+						<p>
+							<span className="itemId">
+								{" "}
+								{this.props.item.image}
+							</span>
+						</p>
 					</Link>
-					<p>
-						<span className="itemId"> {this.props.item.id}</span>
-					</p>
 					<div>
 						<span className="itemName">
 							{" "}
