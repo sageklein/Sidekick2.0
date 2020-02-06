@@ -21,6 +21,20 @@
 		"name": "Hat",
 		"price": "50",
 		"itemTypeId": "1"
+  },
+  {
+  "id": "3",
+  "image": "Hat3.png",
+  "name": "Hat",
+  "price": "50",
+  "itemTypeId": "1"
+  },
+  {
+		"id": "2",
+		"image": "Hat2.png",
+		"name": "Hat",
+		"price": "50",
+		"itemTypeId": "1"
   }
 ],
   "avatars": [

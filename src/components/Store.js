@@ -17,7 +17,7 @@ class Store extends Component {
 						className="points"
 						alt="store"
 					/>
-					<div className="Avatar">
+					<div className="raccoon">
 						<img
 							src={require("../images/raccoon.png")}
 							className="racoon"

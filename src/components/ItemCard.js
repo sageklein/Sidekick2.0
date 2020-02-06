@@ -10,23 +10,22 @@ class ItemCard extends Component {
 	render() {
 		return (
 			<>
-				<div className="Items">
+
+				<div className="Card">
 					<Link to="/store">
-						<p>
-							<span className="itemId">
-								{" "}
-								{this.props.item.image}
-							</span>
+						<p className="img">
+							<span> {this.props.item.image}</span>
 						</p>
 					</Link>
 					<div>
-						<span className="itemName">
+						<span className="name">
 							{" "}
 							{this.props.item.name}
 						</span>
 					</div>
-					<p>{this.props.item.price} Points</p>
+					<p className="price">{this.props.item.price} Points</p>
 				</div>
+
 			</>
 		);
 	}

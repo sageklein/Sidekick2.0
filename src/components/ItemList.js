@@ -21,17 +21,18 @@ class ItemList extends Component {
 	render() {
 		return (
 			<>
-				<div className="StoreTable">
-					{this.state.items.map(item => (
-						<ItemCard
-                            props={this.state.items}
-							key={item.id}
-							item={item}
-                            name={item.name}
-							{...this.props}
-						/>
-					))}
-				</div>
+					<div className="StoreTable">
+                        				<section className="collectionParent"></section>
+						{this.state.items.map(item => (
+							<ItemCard
+								props={this.state.items}
+								key={item.id}
+								item={item}
+								name={item.name}
+								{...this.props}
+							/>
+						))}
+					</div>
 				;
 			</>
 		);
