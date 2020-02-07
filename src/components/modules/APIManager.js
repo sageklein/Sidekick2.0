@@ -7,13 +7,16 @@ export default {
 	getAll() {
 		return fetch(`${remoteURL}/items`).then(result => result.json());
 	},
+	getCollection() {
+		return fetch(`${remoteURL}/collections`).then(result => result.json());
+	},
 	delete(id) {
 		return fetch(`http://localhost:5002/items/${id}`, {
 			method: "DELETE"
 		}).then(result => result.json());
 	},
 	post(newItem) {
-		return fetch(`${remoteURL}/items`, {
+		return fetch("http://localhost:5002/stuffList", {
 			method: "POST",
 			headers: {
 				"Content-Type": "application/json"
@@ -31,8 +34,18 @@ export default {
 		}).then(data => data.json());
 	},
 	getRelated(id) {
-		return fetch(
-			`${remoteURL}/item?avatar=${id}`
-		).then(data => data.json());
+		return fetch(`${remoteURL}/item?avatar=${id}`).then(data =>
+			data.json()
+		);
 	}
+	// },
+	// saveToCollection(saveItem) {
+	// 	return fetch(`${remoteURL}/items${saveItem.id}`, {
+	// 		method: "POST",
+	// 		headers: {
+	// 			"Content-Type": "application/json"
+	// 		},
+	// 		body: JSON.stringify(saveProduct)
+	// 	}).then(data => data.json());
+	// }
 };

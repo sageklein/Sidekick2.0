@@ -1,17 +1,21 @@
 import React, { Component } from "react";
-// import APIManager from "../components/modules/APIManager";
+import APIManager from "./modules/APIManager";
 import { Link } from "react-router-dom";
 import { Button, Modal, ModalHeader, ModalBody, ModalFooter } from 'reactstrap';
 import "../../src/css/ItemTable.css";
 
 
 
-class ItemCard extends Component {
+class StoreCard extends Component {
 	state = {
-        items: [],
-        image: [],
+		image: [],
 		modal: false
-    };
+	};
+
+    handleSave = () => { 
+		APIManager.post("items", this.props.item.id)
+			.then(() => this.props.getData())
+			.then(() => this.props.history.push("/stuff"));};
 
 	modal = () => {
 		this.setState(modal => ({
@@ -32,12 +36,10 @@ class ItemCard extends Component {
 					<div>
 						<Link onClick={this.toggle}>
 							<p className="img">
-
 								<img
 									src={require(`../images/${this.props.item.image}`)}
 									alt="Stuff"
 								/>
-
 							</p>
 						</Link>
 						<Modal isOpen={this.state.modal} toggle={this.toggle}>
@@ -49,7 +51,12 @@ class ItemCard extends Component {
 								<p>Item Costs: {this.props.item.price}</p>
 							</ModalBody>
 							<ModalFooter>
-								<Button className="buy" onClick={this.toggle}>
+								<Button
+									className="buy"
+									onClick={() =>
+										this.handleSave(this.state.item)
+									}
+								>
 									Buy
 								</Button>{" "}
 								<Button
@@ -72,4 +79,4 @@ class ItemCard extends Component {
 }
 
 
-export default ItemCard;
+export default StoreCard;

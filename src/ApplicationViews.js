@@ -3,7 +3,11 @@ import React, { Component } from "react";
 import Login from "./components/Login";
 import Sidekick from "./components/Sidekick";
 import Store from "./components/Store";
+import StoreCard from "./components/StoreCard";
+import StuffCard from "./components/StuffCard";
+import StoreList from "./components/StoreList";
 import Stuff from "./components/Stuff";
+import StuffList from "./components/StuffList";
 import ShowOff from "./components/ShowOff";
 import Home from "./components/Home"
 import Footer from "./components/Footer"
@@ -57,6 +61,54 @@ export default class ApplicationViews extends Component {
 				/>
 				<Route
 					exact
+					path="/storeList"
+					render={props => {
+						return (
+							<StoreList
+								setUser={this.props.setUser}
+								{...this.props}
+							/>
+						);
+					}}
+				/>
+				<Route
+					exact
+					path="/stuffList"
+					render={props => {
+						return (
+							<StuffList
+								setUser={this.props.setUser}
+								{...this.props}
+							/>
+						);
+					}}
+				/>
+				<Route
+					exact
+					path="/stuffCard"
+					render={props => {
+						return (
+							<StuffCard
+								setUser={this.props.setUser}
+								{...this.props}
+							/>
+						);
+					}}
+				/>
+				<Route
+					exact
+					path="/storeCard"
+					render={props => {
+						return (
+							<StoreCard
+								setUser={this.props.setUser}
+								{...this.props}
+							/>
+						);
+					}}
+				/>
+				<Route
+					exact
 					path="/ShowOff"
 					render={props => {
 						return (
@@ -77,10 +129,7 @@ export default class ApplicationViews extends Component {
 					exact
 					path="/footer"
 					render={props => {
-						return (
-							<Footer {...props}
-							props={this.props} />
-						);
+						return <Footer {...props} props={this.props} />;
 					}}
 				/>
 

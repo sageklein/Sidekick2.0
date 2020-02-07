@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 import NavBar from "../components/NavBar";
 import Footer from "../components/Footer";
-import ItemList from "../components/ItemList"
+import StoreList from "./StoreList"
 // import APIManager from "../../modules/APIManager";
 import "../../src/css/Store.css";
 
@@ -25,7 +25,7 @@ class Store extends Component {
 						/>
 					</div>
 					<div className="Accessories">
-						<ItemList
+						<StoreList
 						/>
 					</div>
 					</div>

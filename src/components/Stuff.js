@@ -1,8 +1,9 @@
 import React, { Component } from "react";
 import NavBar from "../components/NavBar";
 import Footer from "../components/Footer";
+import StuffList from "./StuffList";
 // import APIManager from "../../modules/APIManager";
-import "../../src/css/Stuff.css";
+import "../../src/css/Store.css";
 
 class Stuff extends Component {
 	render() {
@@ -10,7 +11,7 @@ class Stuff extends Component {
 			<>
 				<NavBar />
 
-				<div className="Stuff">
+				<div className="Store">
 					<img
 						src={require("../images/Points.png")}
 						className="points"
@@ -23,12 +24,8 @@ class Stuff extends Component {
 							alt="raccoon"
 						/>
 					</div>
-					<div className="Collection">
-						<img
-							src={require("../images/Collection.png")}
-							className="Collection"
-							alt="Collection"
-						/>
+					<div className="stuffList">
+						<StuffList {...this.props} />
 					</div>
 				</div>
 				<Footer />
