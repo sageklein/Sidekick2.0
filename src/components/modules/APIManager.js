@@ -5,23 +5,30 @@ export default {
 		return fetch(`${remoteURL}/items/${id}`).then(result => result.json());
 	},
 	getAll() {
-		return fetch(`${remoteURL}/items`).then(result => result.json());
+		return fetch(`${remoteURL}/items/`).then(result => result.json());
 	},
-	getCollection() {
-		return fetch(`${remoteURL}/collections`).then(result => result.json());
+	getCollection(id) {
+		return fetch(`${remoteURL}/collections/${id}`).then(result =>
+			result.json()
+		);
+	},
+	getCollectionItem() {
+		return fetch(`${remoteURL}/collectionItem/`).then(result =>
+			result.json()
+		);
 	},
 	delete(id) {
-		return fetch(`http://localhost:5002/items/${id}`, {
+		return fetch(`http://localhost:5002/collectionItems/${id}`, {
 			method: "DELETE"
 		}).then(result => result.json());
 	},
-	post(newItem) {
-		return fetch("http://localhost:5002/stuffList", {
+	post(collectionItem) {
+		return fetch(`${remoteURL}/collectionItems`, {
 			method: "POST",
 			headers: {
 				"Content-Type": "application/json"
 			},
-			body: JSON.stringify(newItem)
+			body: JSON.stringify(collectionItem)
 		}).then(data => data.json());
 	},
 	update(editedItem) {

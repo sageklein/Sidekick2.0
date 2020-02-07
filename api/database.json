@@ -1,7 +1,7 @@
 {
   "users": [
     {
-      "id": "1",
+      "id": 1,
       "userName": "Sage",
       "password": "sage",
       "points": "300"
@@ -9,114 +9,133 @@
   ],
   "items": [
     {
-      "id": "4",
+      "id": 1,
       "image": "glasses1.png",
       "name": "Sunglasses",
-      "price": "50",
+      "price": 50,
       "itemTypeId": "2"
     },
     {
-      "id": "5",
+      "id": 2,
       "image": "glasses2.png",
       "name": "Sunglasses",
-      "price": "50",
+      "price": 50,
       "itemTypeId": "2"
     },
     {
-      "id": "6",
+      "id": 3,
       "image": "glasses3.png",
       "name": "Sunglasses",
-      "price": "50",
+      "price": 50,
       "itemTypeId": "2"
     },
     {
-      "id": "1",
+      "id": 4,
       "image": "Hat.png",
       "name": "Hat",
-      "price": "80",
+      "price": 80,
       "itemTypeId": "1"
     },
     {
-      "id": "2",
+      "id": 5,
       "image": "Hat2.png",
       "name": "Hat",
-      "price": "80",
+      "price": 80,
       "itemTypeId": "1"
     },
     {
-      "id": "3",
+      "id": 6,
       "image": "Hat3.png",
       "name": "Hat",
-      "price": "80",
+      "price": 80,
       "itemTypeId": "1"
-    },
-    {
-      "name": "Hat",
-      "price": "80",
-      "image": "Hat.png",
-      "itemId": "1",
-      "id": "Au2nciW"
-    },
-    {
-      "name": "Hat",
-      "price": "80",
-      "image": "Hat.png",
-      "itemId": "Au2nciW",
-      "id": "H4ctHkM"
-    },
-    {
-      "name": "Hat",
-      "price": "80",
-      "image": "Hat.png",
-      "itemId": "Au2nciW",
-      "id": "oYTcW2c"
-    },
-    {
-      "name": "Hat",
-      "price": "80",
-      "image": "Hat.png",
-      "itemId": "Au2nciW",
-      "id": "2DThErJ"
     }
   ],
   "avatars": [
     {
-      "id": "1",
+      "id": 1,
       "avatarImg": "",
       "name": "Sage"
     }
   ],
   "itemTypes": [
     {
-      "id": "1",
+      "id": 1,
       "name": "Hat"
     },
     {
-      "id": "2",
+      "id": 2,
       "name": "Sunglass"
     }
   ],
   "userAvatar": [
     {
-      "id": "1",
-      "user_id": "1",
-      "avatar_id": "1"
+      "id": 1,
+      "avatar_id": 1
     }
   ],
-  "Collections": [
+  "collections": [
     {
-      "id": "1",
-      "image": "glasses2.png",
-      "name": "Sunglasses",
-      "price": "50",
-      "itemTypeId": "2"
+      "id": 1,
+      "itemId": 1,
+      "name": "My Stuff"
+    }
+  ],
+  "collectionItems": [
+    {
+      "id": 1,
+      "collectionId": 1,
+      "itemId": 1
     },
-        {
-			"id": "2",
-			"image": "glasses1.png",
-			"name": "Sunglasses",
-			"price": "50",
-			"itemTypeId": "2"
-		}
+    {
+      "id": 2,
+      "collectionId": 2,
+      "itemId": 2
+    },
+    {
+      "collectionId": 1,
+      "itemId": "2DThErJ",
+      "id": 3
+    },
+    {
+      "collectionId": 1,
+      "itemId": "2DThErJ",
+      "id": 4
+    },
+    {
+      "collectionId": 1,
+      "itemId": "2DThErJ",
+      "id": 5
+    },
+    {
+      "collectionId": 1,
+      "itemId": "2DThErJ",
+      "id": 6
+    },
+    {
+      "collectionId": 1,
+      "itemId": "2DThErJ",
+      "id": 7
+    },
+    {
+      "collectionId": 1,
+      "itemId": "2DThErJ",
+      "id": 8
+    },
+    {
+      "collectionId": 1,
+      "itemId": "2DThErJ",
+      "id": 9
+    },
+    {
+      "collectionId": 1,
+      "itemId": 4,
+      "id": 10
+    },
+    {
+      "collectionId": 1,
+      "itemId": 4,
+      "id": 11
+    }
   ]
 }

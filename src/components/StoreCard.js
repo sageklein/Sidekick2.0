@@ -9,13 +9,19 @@ import "../../src/css/ItemTable.css";
 class StoreCard extends Component {
 	state = {
 		image: [],
+		item: "",
 		modal: false
 	};
 
-    handleSave = () => { 
-		APIManager.post("items", this.props.item.id)
+	handleSave = (id) => {
+		let collectionItem = {
+			collectionId : 1,
+			itemId : id
+		}
+		APIManager.post(collectionItem)
 			.then(() => this.props.getData())
-			.then(() => this.props.history.push("/stuff"));};
+			// .then(() => this.props.history.push("/store"));
+	};
 
 	modal = () => {
 		this.setState(modal => ({
@@ -53,9 +59,10 @@ class StoreCard extends Component {
 							<ModalFooter>
 								<Button
 									className="buy"
-									onClick={() =>
-										this.handleSave(this.state.item)
-									}
+									onClick={() => {
+										this.handleSave(this.props.item.id)
+										this.toggle()
+									}}
 								>
 									Buy
 								</Button>{" "}
