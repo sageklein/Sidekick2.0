@@ -6,8 +6,8 @@ import "../../src/css/ItemTable.css";
 
 class StuffCard extends Component {
 	state = {
-		collections: [],
 		image: [],
+		item: "",
 		modal: false
 	};
 	componentDidMount() {
@@ -47,7 +47,7 @@ class StuffCard extends Component {
 						<Link onClick={this.toggle}>
 							<p className="img">
 								<img
-									src={require(`../images/${this.props.items.image}`)}
+									src={require(`../images/${this.props.item.image}`)}
 									alt="Stuff"
 								/>
 							</p>
@@ -81,9 +81,8 @@ class StuffCard extends Component {
 						</Modal>
 					</div>
 					<div>
-						<span className="name"> {this.props.items.name}</span>
+						<span className="name"> {this.props.item.name}</span>
 					</div>
-					<p className="price">{this.props.items.price} Points</p>
 				</div>
 			</>
 		);

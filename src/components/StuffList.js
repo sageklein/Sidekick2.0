@@ -5,7 +5,7 @@ import "../../src/css/ItemTable.css";
 
 class StuffList extends Component {
 	state = {
-		collection: []
+		items: []
 	};
 
 	render() {
@@ -13,14 +13,9 @@ class StuffList extends Component {
 			<>
 				<div className="StoreTable">
 					<section className="collection"></section>
-					{this.state.collections.map(collection => (
-						<StuffCard
-							getData={this.getData}
-							key={collection.id}
-							collection={collection}
-							name={collection.name}
-							{...this.props}
-						/>
+                    {
+                    this.props.items.map(item => (
+						<StuffCard key={item.id} item={item} {...this.props} />
 					))}
 				</div>
 				;

@@ -7,15 +7,25 @@ import "../../src/css/Store.css";
 
 class Stuff extends Component {
 	state = {
-		collection: 1,
+		collectionId: 1,
+		items: []
 	};
-	getData = () => {
-		APIManager.getCollection(1).then(collection => {
-			this.setState({
-				collection: collection
-			});
-		});
-	}
+	getData = () =>
+		APIManager.getCollection(this.state.collectionId).then(collection =>
+			APIManager.getCollectionItems(collection.id).then(
+				collectionItemArray => {
+					this.setState({ items: [] });
+					collectionItemArray.forEach(collectionItem =>
+						APIManager.getItem(collectionItem.itemId).then(item => {
+							this.state.items.push(item);
+							this.setState({
+								items: this.state.items
+							});
+						})
+					);
+				}
+			)
+		);
 
 	componentDidMount() {
 		this.getData();
@@ -40,7 +50,7 @@ class Stuff extends Component {
 					<div className="stuffList">
 						<StuffList
 							collection={this.state.collection}
-							getData={this.getData}
+							items={this.state.items}
 							{...this.props}
 						/>
 					</div>

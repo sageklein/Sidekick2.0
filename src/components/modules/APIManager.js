@@ -1,7 +1,7 @@
 const remoteURL = "http://localhost:5002";
 
 export default {
-	get(id) {
+	getItem(id) {
 		return fetch(`${remoteURL}/items/${id}`).then(result => result.json());
 	},
 	getAll() {
@@ -12,8 +12,8 @@ export default {
 			result.json()
 		);
 	},
-	getCollectionItem() {
-		return fetch(`${remoteURL}/collectionItem/`).then(result =>
+	getCollectionItems(id) {
+		return fetch(`${remoteURL}/collectionItems?collectionId=${id}`).then(result =>
 			result.json()
 		);
 	},
