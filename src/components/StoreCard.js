@@ -20,7 +20,6 @@ class StoreCard extends Component {
 		}
 		APIManager.post(collectionItem)
 			.then(() => this.props.getData())
-			// .then(() => this.props.history.push("/store"));
 	};
 
 	modal = () => {

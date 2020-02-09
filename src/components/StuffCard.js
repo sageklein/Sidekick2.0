@@ -7,26 +7,14 @@ import "../../src/css/ItemTable.css";
 class StuffCard extends Component {
 	state = {
 		image: [],
-		item: "",
 		modal: false
 	};
-	componentDidMount() {
-		console.log("Item LIST: ComponentDidMount");
-		APIManager.getAll().then(collections => {
-			this.setState({
-				collections: collections
-			});
-		});
+
+	delete = (id) => {
+		APIManager.delete(id)
+		.then(() => this.props.getData())
 	}
-	delete = () => {
-		APIManager.delete("1").then(() => {
-			APIManager.getCollection().then(collection => {
-				this.setState({
-					collection: collection
-				});
-			});
-		});
-	};
+
 	modal = () => {
 		this.setState(modal => ({
 			modal: modal
@@ -63,11 +51,10 @@ class StuffCard extends Component {
 							<ModalFooter>
 								<Button
 									className="delete"
-									onClick={() =>
-										this.handleSave(
-											this.props.collection.id
-										)
-									}
+									onClick={() => {
+										this.delete(this.props.item.collectionItemId);
+										this.toggle();
+									}}
 								>
 									Delete
 								</Button>{" "}

@@ -83,16 +83,6 @@
   "collectionItems": [
     {
       "collectionId": 1,
-      "itemId": 4,
-      "id": 1
-    },
-    {
-      "collectionId": 1,
-      "itemId": 3,
-      "id": 2
-    },
-    {
-      "collectionId": 1,
       "itemId": 5,
       "id": 3
     }

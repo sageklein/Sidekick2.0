@@ -15,7 +15,7 @@ class StuffList extends Component {
 					<section className="collection"></section>
                     {
                     this.props.items.map(item => (
-						<StuffCard key={item.id} item={item} {...this.props} />
+						<StuffCard key={item.collectionItemId} item={item} name={item.name} {...this.props} />
 					))}
 				</div>
 				;

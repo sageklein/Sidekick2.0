@@ -17,6 +17,7 @@ class Stuff extends Component {
 					this.setState({ items: [] });
 					collectionItemArray.forEach(collectionItem =>
 						APIManager.getItem(collectionItem.itemId).then(item => {
+							item.collectionItemId=collectionItem.id;
 							this.state.items.push(item);
 							this.setState({
 								items: this.state.items
@@ -51,6 +52,7 @@ class Stuff extends Component {
 						<StuffList
 							collection={this.state.collection}
 							items={this.state.items}
+							getData={this.getData}
 							{...this.props}
 						/>
 					</div>
