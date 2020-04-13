@@ -9,7 +9,7 @@ Website: sageklein.com
 
 Slack Handle: Sage Klein
 
-Github: (https://github.com/sageklein/sidekick)
+Github: (https://sageklein.github.io/Sidekick2.0/#/)
 
 
 
